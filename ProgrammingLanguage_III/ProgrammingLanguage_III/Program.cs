@@ -41,11 +41,6 @@ namespace ProgrammingLanguage_III
             }
         }
 
-        public void Output(int height)
-        {
-            
-        }
-
         class CellPicture
         {
             string[] array;
@@ -129,6 +124,5 @@ namespace ProgrammingLanguage_III
         {
             return new Counter(c.val + 1);
         }
-        public override string ToString() { return this.val.ToString(); }
     }
 }
